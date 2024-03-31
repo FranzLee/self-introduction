@@ -2,12 +2,12 @@ var myText = [];
 
 function startGame() {
     myGameArea.start();
-    myText.push(new conponent(400, 260, 0, 50, "各位學長早安", 40, "pink"));
-    myText.push(new conponent(420, 260, 51, 50, "我是李則聿", 40, "pink"));
-    myText.push(new conponent(360, 260, 101, 50, "以下是我的自我介紹", 40, "pink"));
-    myText.push(new conponent(400, 260, 151, 20, "我的興趣", 30, "pink"));
-    myText.push(new conponent(400, 260, 171, 50, "我的興趣", 30, "pink", "swip", 20, 50));
-    myText.push(new conponent(20, 50, 221, 350, "我的興趣", 30, "pink"));
+    myText.push(new conponent(400, 260, 0, 50, "各位學長早安", 40, "skyblue"));
+    myText.push(new conponent(420, 260, 51, 50, "我是李則聿", 40, "skyblue"));
+    myText.push(new conponent(360, 260, 101, 50, "以下是我的自我介紹", 40, "skyblue"));
+    myText.push(new conponent(400, 260, 151, 20, "我的興趣", 30, "skyblue"));
+    myText.push(new conponent(400, 260, 171, 50, "我的興趣", 30, "skyblue", "swip", 20, 50));
+    myText.push(new conponent(20, 50, 221, 350, "我的興趣", 30, "skyblue"));
     myText.push(new conponent(70, 100, 261, 310, "看足球比賽", 20, "orange"));
     myText.push(new conponent(200, 100, 301, 270, "皇馬拿歐冠冠軍啦", 15, "gold"));
     myText.push(new conponent(70, 200, 341, 230, "沒事發瘋", 20, "orange"));
@@ -16,9 +16,9 @@ function startGame() {
     myText.push(new conponent(200, 300, 461, 110, "誒怎麼兩點了？", 15, "gold"));
     myText.push(new conponent(70, 400, 501, 70, "講幹話(特別幹的那一種", 20, "orange"));
     myText.push(new conponent(340, 400, 541, 30, "請幫我微波這支冰淇淋", 15, "gold"));
-    myText.push(new conponent(360, 260, 571, 20, "零重點型自我介紹", 30, "pink"));
-    myText.push(new conponent(360, 260, 591, 50, "零重點型自我介紹", 30, "pink", "swip", 20, 50));
-    myText.push(new conponent(20, 50, 641, 410, "零重點型自我介紹", 30, "pink"));
+    myText.push(new conponent(360, 260, 571, 20, "零重點型自我介紹", 30, "skyblue"));
+    myText.push(new conponent(360, 260, 591, 50, "零重點型自我介紹", 30, "skyblue", "swip", 20, 50));
+    myText.push(new conponent(20, 50, 641, 410, "零重點型自我介紹", 30, "skyblue"));
     myText.push(new conponent(70, 100, 641, 410, "一個嚴重社恐，", 20, "white"));
     myText.push(new conponent(210, 100, 681, 370, "組織語言能力低落，", 20, "white"));
     myText.push(new conponent(390, 100, 721, 330, "常常帶兩台電腦來學校，", 20, "white"));
@@ -29,9 +29,9 @@ function startGame() {
     myText.push(new conponent(70, 300, 921, 130, "習慣把冰淇淋加入火鍋燉煮，", 20, "white"));
     myText.push(new conponent(330, 300, 961, 90, "iPhone8可憐仔，", 20, "white"));
     myText.push(new conponent(480, 300, 1001, 50, "每天睡足3小時-健康兒童", 20, "white"));
-    myText.push(new conponent(360, 260, 1051, 20, "個人可悲的程式能力", 30, "pink"));
-    myText.push(new conponent(360, 260, 1071, 50, "個人可悲的程式能力", 30, "pink", "swip", 20, 50));
-    myText.push(new conponent(20, 50, 1121, 410, "個人可悲的程式能力", 30, "pink"));
+    myText.push(new conponent(360, 260, 1051, 20, "個人可悲的程式能力", 30, "skyblue"));
+    myText.push(new conponent(360, 260, 1071, 50, "個人可悲的程式能力", 30, "skyblue", "swip", 20, 50));
+    myText.push(new conponent(20, 50, 1121, 410, "個人可悲的程式能力", 30, "skyblue"));
     myText.push(new conponent(70, 100, 1121, 410, "自學過HTML、", 20, "white"));
     myText.push(new conponent(210, 100, 1151, 380, "JavaScript、", 20, "white"));
     myText.push(new conponent(330, 100, 1181, 350, "一點點CSS、", 20, "white"));
@@ -42,9 +42,9 @@ function startGame() {
     myText.push(new conponent(250, 200, 1341, 190, "但真的比較熟的只有JavaScript了，", 20, "white"));
     myText.push(new conponent(570, 200, 1381, 150, "像是本「偽投影片」，", 20, "white"));
     myText.push(new conponent(70, 300, 1421, 110, "就是HTML的canvas及JavaScript實作的", 20, "white"));
-    myText.push(new conponent(360, 260, 1531, 20, "個人資訊", 30, "pink"));
-    myText.push(new conponent(360, 260, 1551, 50, "個人資訊", 30, "pink", "swip", 20, 50));
-    myText.push(new conponent(20, 50, 1601, 100000, "個人資訊", 30, "pink"));
+    myText.push(new conponent(360, 260, 1531, 20, "個人資訊", 30, "skyblue"));
+    myText.push(new conponent(360, 260, 1551, 50, "個人資訊", 30, "skyblue", "swip", 20, 50));
+    myText.push(new conponent(20, 50, 1601, 100000, "個人資訊", 30, "skyblue"));
     myText.push(new conponent(70, 100, 1631, 100000, "Discord : ", 20, "white"));
     myText.push(new conponent(160, 100, 1661, 100000, "Franz_0330", 20, "white"));
     myText.push(new conponent(70, 150, 1691, 100000, "Instagram : ", 20, "white"));
